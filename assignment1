@@ -1,0 +1,8 @@
+public class PersonalInfo {
+public static void main(String[]args) {
+System.out.println("Name: Sookie Stackhouse");
+System.out.println("Age: 25");
+System.out.println("Birthday: June 20, 1988");
+System.out.println("Contact Number: 07472773");
+}
+}
