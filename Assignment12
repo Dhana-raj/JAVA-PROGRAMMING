@@ -1,0 +1,11 @@
+import java.io.*;
+class shift{
+public static void main(String[] args)
+{
+int num1=5,num2=5;
+int ans=num1<<5;
+int anst=num2>>5;;
+System.out.println(ans);
+System.out.println(anst);
+}
+}
