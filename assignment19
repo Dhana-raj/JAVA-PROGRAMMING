@@ -1,0 +1,17 @@
+class persl_detal {
+   String name,place,design;
+    int idno=9213;
+   Hello(){
+      this.name = "dhanaraj";
+      this.place=" kakinada";
+      this.design="lab assistant";
+
+   }
+   public static void main(String[] args) {
+      Hello obj = new Hello();
+      System.out.println(obj.name);
+      System.out.println(obj.place);
+      System.out.println(obj.design);
+      System.out.println(obj.idno);
+   }
+}
