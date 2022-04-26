@@ -1,0 +1,33 @@
+import java.util.*;
+class search_ele
+{
+  public static void main (String[]args)
+  {
+    int n,i,sv,flag=0;
+    Scanner sn=new Scanner(System.in);
+      System.out.println("enter array size");
+      n=sn.nextInt();
+      int[] a=new int[n];
+      System.out.println("enter array elements");
+      for(i=0;i<n;i++)
+{
+      a[i]=sn.nextInt();
+}      
+System.out.println("eneter search elem");
+sv=sn.nextInt();
+ for(i=0;i<n;i++)
+{
+if(a[i]==sv)
+{
+System.out.println("element"+sv+" found at "+i+"position");
+flag=1;
+break;
+}
+}
+if(flag==0)
+{
+System.out.println("element "+sv+" not found");
+}      
+}
+}
+
