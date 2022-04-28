@@ -1,0 +1,17 @@
+import java.util.*;
+class  stringprogram
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+String s1,s2;
+System.out.print("enter s1 string:");
+s1=sc.nextLine();
+String st[]=s1.split("\\s");
+int n=s1.length();
+System.out.println(n);
+System.out.print("enter s2 string:");
+s2=sc.nextLine();
+int n1=s2.length();
+System.out.println(n1);
+}
